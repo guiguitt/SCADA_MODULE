@@ -1,5 +1,5 @@
-#ifndef LINDM_H_INCLUDED
-#define LINDM_H_INCLUDED
+#ifndef LEDIND_H_INCLUDED
+#define LEDIND_H_INCLUDED
 #include <arduino.h>
 
 #define LED_ON 0
@@ -22,4 +22,4 @@ class LedIndicator_Module {
     int fail;
 
 };
-#endif  //LINDM
+#endif  //LEDIND
