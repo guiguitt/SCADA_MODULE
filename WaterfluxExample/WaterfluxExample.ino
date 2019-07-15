@@ -3,7 +3,7 @@ void setup() {
   Serial.begin(9600);
   while (!Serial) {}
  
-  WF_Init(2);
+  WF_Init(5);
 }
 
 void loop() {
