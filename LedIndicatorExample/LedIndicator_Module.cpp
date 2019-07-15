@@ -23,23 +23,23 @@ void LedIndicator_Module::WIFI(bool statue) {
 
 }
 void LedIndicator_Module::WIFI() {
-  if(wifi==true){
+  if(on==true){
     digitalWrite(LED_WIFI, LOW);
-    wifi=false;
+    on=false;
   }
   else{
     digitalWrite(LED_WIFI, HIGH);
-    wifi=true; 
+    on=true; 
   }
 }
 void LedIndicator_Module::FAIL() {
-  if(fail==true){
+  if(on==true){
     digitalWrite(LED_FAIL, LOW);
-    fail=false;
+    on=false;
   }
   else{
     digitalWrite(LED_FAIL, HIGH);
-    fail=true; 
+    on=true; 
   }
 }
 void LedIndicator_Module::FAIL(bool statue) {

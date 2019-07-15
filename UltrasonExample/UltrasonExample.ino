@@ -10,7 +10,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.println(US.mesure(200, 50, 0));
-  //Serial.println("mm");
-
+  Serial.print(mesure(20, 100, 0));
+  Serial.println("mm");
+  
 }
